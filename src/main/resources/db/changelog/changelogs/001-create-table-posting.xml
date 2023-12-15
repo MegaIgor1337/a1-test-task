@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
+    <changeSet id="001" author="tawerka1337228321@mail.ru">
+        <sql>
+            CREATE TABLE IF NOT EXISTS postings (
+                id SERIAL PRIMARY KEY,
+                mat_doc VARCHAR(255),
+                item VARCHAR(255),
+                doc_date DATE,
+                post_date DATE,
+                material_description TEXT,
+                quantity INTEGER,
+                bun VARCHAR(50),
+                amount_lc VARCHAR(50),
+                crcy VARCHAR(10),
+                username VARCHAR(255),
+                authorized_delivery BOOLEAN
+                );
+        </sql>
+    </changeSet>
+
+
+</databaseChangeLog>

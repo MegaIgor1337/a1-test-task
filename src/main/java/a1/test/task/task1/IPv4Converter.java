@@ -3,19 +3,35 @@ package a1.test.task.task1;
 import lombok.experimental.UtilityClass;
 
 @UtilityClass
-public class IpConverter {
-    public static int parseIpAddressToInt(String ipAddress) {
+public class IPv4Converter {
+    public static long parseStringIPv4ToInt(String addr) {
+        String[] addrArray = addr.split("\\.");
 
+        if (addrArray.length != 4) {
+            throw new IllegalArgumentException("Incorrectly IPv4 address: " + addr);
+        }
+
+        long num = 0;
+        for (String part : addrArray) {
+            int octet = Integer.parseInt(part);
+
+            if (octet < 0 || octet > 255) {
+                throw new IllegalArgumentException("Incorrectly IPv4 address: " + addr);
+            }
+
+            if (part.length() > 1 && part.startsWith("0")) {
+                throw new IllegalArgumentException("Incorrectly IPv4 address: " + addr);
+            }
+
+            num = (num << 8) + octet;
+        }
+        return num;
     }
 
-    public static String parserIpAddressToString(int ipAddress) {
-        StringBuilder sa = new StringBuilder();
-        for (int i = 0; i < 4; i++) {
-            sa.append(0xff & ipAddress >> 24);
-            ipAddress <<= 8;
-            if (i != 4 - 1)
-                sa.append('.');
-        }
-        return sa.toString();
+    public static String parseIntIPv4ToInt(long i) {
+        return ((i >> 24) & 0xFF) + "." +
+               ((i >> 16) & 0xFF) + "." +
+               ((i >> 8) & 0xFF) + "." +
+               (i & 0xFF);
     }
 }
