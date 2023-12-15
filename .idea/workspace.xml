@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8448d7e9-5784-43df-8bbd-cc3c9af573a8" name="Changes" comment="">
+    <list default="true" id="8448d7e9-5784-43df-8bbd-cc3c9af573a8" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task1/IPv4Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task1/IPv4Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task1/Task1Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task1/Task1Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task2/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task2/Task2Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task2/Task2Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/Task3Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/Task3Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/controller/PostingRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/controller/PostingRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/dto/PostingDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/dto/PostingDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/entity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/entity/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/entity/Posting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/entity/Posting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/mapper/PostingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/mapper/PostingMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/repository/LoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/repository/LoginRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/repository/PostingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/repository/PostingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/service/AuthorizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/service/AuthorizationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/service/PostingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/service/PostingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/util/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a1/test/task/task3/util/CsvReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changelogs/001-create-table-posting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changelogs/001-create-table-posting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changelogs/002-create-table-logins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changelogs/002-create-table-logins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/a1/test/task/task1/IPv4ConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/a1/test/task/task1/IPv4ConverterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/a1/test/task/task2/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/a1/test/task/task2/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,12 +164,24 @@
       <workItem from="1702375018087" duration="5359000" />
       <workItem from="1702423631543" duration="3101000" />
       <workItem from="1702580796093" duration="11782000" />
-      <workItem from="1702630006933" duration="1067000" />
+      <workItem from="1702630006933" duration="3241000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1702631134205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702631134206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
